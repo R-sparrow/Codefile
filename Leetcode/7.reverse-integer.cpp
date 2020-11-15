@@ -19,10 +19,9 @@ public:
             std::reverse(str.begin()+1,str.end());
         }
         num = atol(str.c_str());
-        if(num > 2147483647 || num < -2147483648 ){
-
+        if(num > 2147483647 || num < -2147483648 )
+        {
         return 0;
-
         }
         return num;
     }
